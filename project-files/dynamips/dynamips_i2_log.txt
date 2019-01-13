@@ -1,0 +1,31 @@
+Jan 04 17:48:28.462 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:48:28.463 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56635.
+Jan 04 17:48:28.689 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:48:28.690 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips 
+Jan 04 17:48:28.690 GENERAL: working_dir=C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips
+Jan 04 17:48:28.691 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips\5b94f9d6-d3e4-4791-98b4-a471587d74d4 
+Jan 04 17:48:28.692 GENERAL: working_dir=C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips\5b94f9d6-d3e4-4791-98b4-a471587d74d4
+Jan 04 17:48:28.692 HYPERVISOR: exec_cmd: vm create Router01 2 c3725 
+Jan 04 17:48:28.695 VM: VM Router01 created.
+Jan 04 17:48:28.696 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router01 5001 
+Jan 04 17:48:28.696 HYPERVISOR: exec_cmd: c3725 get_mac_addr Router01 
+Jan 04 17:48:28.697 HYPERVISOR: exec_cmd: vm set_disk0 Router01 0 
+Jan 04 17:48:28.697 HYPERVISOR: exec_cmd: vm set_exec_area Router01 64 
+Jan 04 17:48:28.698 HYPERVISOR: exec_cmd: vm get_status Router01 
+Jan 04 17:48:28.698 HYPERVISOR: exec_cmd: vm set_idle_pc Router01 0x60c09aa0 
+Jan 04 17:48:28.700 HYPERVISOR: exec_cmd: vm set_ios Router01 C:/Users/Fiji/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jan 04 17:48:28.701 HYPERVISOR: exec_cmd: c3725 set_mac_addr Router01 c202.2020.0000 
+Jan 04 17:48:28.702 HYPERVISOR: exec_cmd: vm set_nvram Router01 256 
+Jan 04 17:48:28.707 HYPERVISOR: exec_cmd: vm get_status Router01 
+Jan 04 17:48:28.708 HYPERVISOR: exec_cmd: vm slot_add_binding Router01 1 0 NM-1FE-TX 
+Jan 04 17:48:28.708 HYPERVISOR: exec_cmd: vm get_status Router01 
+Jan 04 17:48:28.708 HYPERVISOR: exec_cmd: vm slot_add_binding Router01 2 0 NM-1FE-TX 
+Jan 04 17:48:32.801 HYPERVISOR: exec_cmd: nio create_udp udp-b76f081d-ca59-45a4-8d0f-df221ebe75aa 10004 127.0.0.1 10005 
+Jan 04 17:48:33.363 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router01 0 0 udp-b76f081d-ca59-45a4-8d0f-df221ebe75aa 
+Jan 04 17:48:33.364 HYPERVISOR: exec_cmd: vm get_status Router01 
+Jan 04 17:48:33.442 HYPERVISOR: exec_cmd: nio create_udp udp-016a00a8-7e3d-496f-968d-95c228a30c66 10008 127.0.0.1 10009 
+Jan 04 17:48:33.445 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router01 0 1 udp-016a00a8-7e3d-496f-968d-95c228a30c66 
+Jan 04 17:48:33.446 HYPERVISOR: exec_cmd: vm get_status Router01 
+Jan 04 17:48:34.120 HYPERVISOR: exec_cmd: nio create_udp udp-5881a56d-1adc-47af-81b7-65500fd84ad5 10014 127.0.0.1 10015 
+Jan 04 17:48:34.123 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router01 1 0 udp-5881a56d-1adc-47af-81b7-65500fd84ad5 
+Jan 04 17:48:34.124 HYPERVISOR: exec_cmd: vm get_status Router01 

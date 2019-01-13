@@ -1,0 +1,25 @@
+Jan 04 17:48:27.614 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:48:27.616 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56603.
+Jan 04 17:48:27.927 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:48:27.927 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips 
+Jan 04 17:48:28.041 GENERAL: working_dir=C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips
+Jan 04 17:48:28.042 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips\6baf6f39-44bf-45ce-ab4c-795b769b8d7c 
+Jan 04 17:48:28.042 GENERAL: working_dir=C:\Users\Fiji\Desktop\CS310\A2\Exact_IPs\A2_S11134676_S11035578_S11133604_S11123246\project-files\dynamips\6baf6f39-44bf-45ce-ab4c-795b769b8d7c
+Jan 04 17:48:28.043 HYPERVISOR: exec_cmd: vm create Default_Gateway 1 c3725 
+Jan 04 17:48:28.046 VM: VM Default_Gateway created.
+Jan 04 17:48:28.047 HYPERVISOR: exec_cmd: vm set_con_tcp_port Default_Gateway 5000 
+Jan 04 17:48:28.047 HYPERVISOR: exec_cmd: c3725 get_mac_addr Default_Gateway 
+Jan 04 17:48:28.048 HYPERVISOR: exec_cmd: vm set_disk0 Default_Gateway 0 
+Jan 04 17:48:28.049 HYPERVISOR: exec_cmd: vm set_exec_area Default_Gateway 64 
+Jan 04 17:48:28.050 HYPERVISOR: exec_cmd: vm get_status Default_Gateway 
+Jan 04 17:48:28.050 HYPERVISOR: exec_cmd: vm set_idle_pc Default_Gateway 0x60c09aa0 
+Jan 04 17:48:28.052 HYPERVISOR: exec_cmd: vm set_ios Default_Gateway C:/Users/Fiji/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jan 04 17:48:28.053 HYPERVISOR: exec_cmd: c3725 set_mac_addr Default_Gateway c201.2f68.0000 
+Jan 04 17:48:28.054 HYPERVISOR: exec_cmd: vm set_nvram Default_Gateway 256 
+Jan 04 17:48:28.055 HYPERVISOR: exec_cmd: vm get_status Default_Gateway 
+Jan 04 17:48:28.055 HYPERVISOR: exec_cmd: vm slot_add_binding Default_Gateway 1 0 NM-1FE-TX 
+Jan 04 17:48:28.056 HYPERVISOR: exec_cmd: vm get_status Default_Gateway 
+Jan 04 17:48:28.056 HYPERVISOR: exec_cmd: vm slot_add_binding Default_Gateway 2 0 NM-1FE-TX 
+Jan 04 17:48:32.199 HYPERVISOR: exec_cmd: nio create_udp udp-56c9d955-c214-4000-9093-06d47078532f 10002 127.0.0.1 10003 
+Jan 04 17:48:32.783 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Default_Gateway 0 0 udp-56c9d955-c214-4000-9093-06d47078532f 
+Jan 04 17:48:32.784 HYPERVISOR: exec_cmd: vm get_status Default_Gateway 
